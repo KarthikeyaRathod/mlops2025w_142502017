@@ -1,0 +1,23 @@
+2c2
+< echo "Sum of n numbers in shell script"
+---
+> echo "sum and factorial of n numbers in shell script"
+11a12,20
+> 
+> 
+> p=1
+> product=1
+> while test $p -le $digit
+> do
+>    product=`expr $product \* $p`
+>    p=`expr $p + 1`
+> done
+12a22,29
+> echo "factorial of $digits: $product "
+> 
+> 
+> 
+> 
+> 
+> 
+> 
